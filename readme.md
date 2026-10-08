@@ -1,6 +1,6 @@
 # The Archetype Atlas: NBA player roles, 2025–26
 
-The Archetype Atlas groups **389 NBA players with at least 500 regular-season minutes** by the statistical roles they played. It assigns each player to one of seven archetypes: two for high-usage players and five for role players. These labels describe playing style, not overall quality. The [interactive atlas](web/index.html) presents the groups, and the [player fit table](web/player-fit.html) lets readers inspect every player's relative fit scores.
+The Archetype Atlas groups **389 NBA players with at least 500 regular-season minutes** by the statistical roles they played. It assigns each player to one of seven archetypes: two for high-usage players and five for role players. These labels describe playing style, not overall quality. The [interactive atlas](index.html) presents the groups, and the [player fit table](web/player-fit.html) lets readers inspect every player's relative fit scores.
 
 The [final clustering notebook](notebooks/final_archetype_clustering.ipynb) is the authoritative, executable record of the model. It starts from the saved modeling table, shows each modeling step in order, and writes the assignments and diagnostics used by the site.
 
@@ -25,7 +25,7 @@ The notebook uses **pandas** for tables, **NumPy** for numerical arrays, and **s
 python web/build_data.py
 ```
 
-Open [`web/index.html`](web/index.html) locally to view the atlas. The page itself needs no build server. Web fonts and NBA-hosted player portraits require an internet connection.
+Open [`index.html`](index.html) locally to view the atlas. The page itself needs no build server. Web fonts and NBA-hosted player portraits require an internet connection.
 
 ## Feature preparation and weighting
 
@@ -87,4 +87,4 @@ Running the notebook writes three model artifacts:
 
 The site builder reads those outputs and the saved [LEBRON CSV](data/raw/nba_2025_26_lebron.csv) and [player metadata JSON](data/raw/nba_2025_26_lebron.json). For each archetype it selects the ten members with the highest LEBRON values (using LEBRON WAR to break ties), computes the group's median LEBRON, and selects three representatives with the highest **assigned fit**. Those representatives supply the archetype-card portraits. It writes [`web/data.js`](web/data.js) and [`web/fit-data.js`](web/fit-data.js), which the static pages load directly.
 
-LEBRON is Basketball Index's estimate of on-court impact per 100 possessions. It determines the **displayed impact ranking only**; it is not part of the clustering or fit calculation. The [atlas](web/index.html) shows the seven groups, representatives, group sizes, median LEBRON, and impact leaderboards. The [full player table](web/player-fit.html) supports pool switching, search, archetype and team filters, and sorting by assigned fit or closest call.
+LEBRON is Basketball Index's estimate of on-court impact per 100 possessions. It determines the **displayed impact ranking only**; it is not part of the clustering or fit calculation. The [atlas](index.html) shows the seven groups, representatives, group sizes, median LEBRON, and impact leaderboards. The [full player table](web/player-fit.html) supports pool switching, search, archetype and team filters, and sorting by assigned fit or closest call.

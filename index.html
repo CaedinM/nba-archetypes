@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="data.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="web/styles.css">
+  <script src="web/data.js" defer></script>
+  <script src="web/app.js" defer></script>
 </head>
 <body>
   <div class="page-shell">
@@ -20,7 +20,7 @@
         <span class="brand-mark" aria-hidden="true"><span></span></span>
         <span>THE<br>ARCHETYPE<br>ATLAS</span>
       </a>
-      <a class="header-link" href="player-fit.html">PLAYER FIT TABLE <span aria-hidden="true">↗</span></a>
+      <a class="header-link" href="web/player-fit.html">PLAYER FIT TABLE <span aria-hidden="true">↗</span></a>
     </header>
 
     <main id="top">
@@ -32,7 +32,7 @@
           <p>Forget positions. See the game through the roles players actually play.</p>
           <div class="hero-actions">
             <a class="hero-cta" href="#archetypes">EXPLORE THE SEVEN <span aria-hidden="true">↗</span></a>
-            <a class="hero-cta hero-cta-secondary" href="player-fit.html">VIEW ALL PLAYERS <span aria-hidden="true">↗</span></a>
+            <a class="hero-cta hero-cta-secondary" href="web/player-fit.html">VIEW ALL PLAYERS <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <div class="hero-art" aria-label="Player portraits of Victor Wembanyama, Shai Gilgeous-Alexander, and Nikola Jokić">
@@ -43,7 +43,6 @@
           <div class="hero-person hero-person-left"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png" alt="Shai Gilgeous-Alexander" fetchpriority="high"></div>
           <div class="hero-person hero-person-right"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png" alt="Nikola Jokić" fetchpriority="high"></div>
           <div class="hero-person hero-person-center"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1641705.png" alt="Victor Wembanyama" fetchpriority="high"></div>
-          <div class="hero-art-label">THE GAME, RECLASSIFIED <span>↗</span></div>
         </div>
         <div class="hero-bottom"><span>389 PLAYERS ANALYZED</span><span>07 DISTINCT ARCHETYPES</span><span>SCROLL TO EXPLORE ↓</span></div>
       </section>
@@ -51,7 +50,7 @@
       <section class="archetypes-section" id="archetypes" aria-labelledby="archetypes-title">
         <div class="section-heading">
           <div><span class="section-kicker">01 / 02 &nbsp; THE FIELD GUIDE / 2025–26</span><h2 id="archetypes-title">THE SEVEN.</h2></div>
-          <p>Choose a card to meet the archetype.<br>Reveal its impact leaderboard inside.<br><a href="player-fit.html" style="text-decoration:underline;text-underline-offset:4px">Explore every player's fit percentages ↗</a></p>
+          <p>Choose a card to meet the archetype.<br>Reveal its impact leaderboard inside.<br><a href="web/player-fit.html" style="text-decoration:underline;text-underline-offset:4px">Explore every player's fit percentages ↗</a></p>
         </div>
         <p class="metric-note"><span>METRIC NOTE</span><strong>LEBRON</strong> is <a href="https://www.bball-index.com/lebron-introduction/">Basketball Index’s</a> estimate of a player’s on-court impact per 100 possessions, combining offense and defense. Zero is average; higher is better.</p>
         <div class="filter-row" role="group" aria-label="Filter archetypes">
@@ -75,6 +74,7 @@
             <li>For role players, evaluated 5–12 K-means clusters, ruled out groups below 4% of the pool, and chose the eligible result with the best silhouette score.</li>
             <li>Examined each cluster’s members and shared traits to name its archetype.</li>
           </ol>
+          <a class="notebook-link" href="https://github.com/CaedinM/nba-archetypes" target="_blank" rel="noopener noreferrer">VIEW THE ORIGINAL NOTEBOOK ON GITHUB <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
