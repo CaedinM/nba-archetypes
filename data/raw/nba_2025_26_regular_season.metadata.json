@@ -1,0 +1,32 @@
+{
+  "source": "basketball-reference fallback",
+  "source_urls": [
+    "https://www.basketball-reference.com/leagues/NBA_2026_totals.html",
+    "https://www.basketball-reference.com/leagues/NBA_2026_advanced.html",
+    "https://www.basketball-reference.com/leagues/NBA_2026_shooting.html"
+  ],
+  "downloaded_at_utc": "2026-10-06T01:49:09.854201+00:00",
+  "season": "2025-26",
+  "note": "Fallback used when NBA.com player-dashboard endpoint is unavailable.",
+  "sha256": "4cb53867103ae21e92988b896574809b26868c373f1bb48a860b5e24fea6412f",
+  "catch_shoot_source": {
+    "file": "nba_2025_26_catch_shoot.csv",
+    "source": "NBA.com Players Catch & Shoot, 2025-26 regular season, totals",
+    "rows": 582,
+    "join": "one player-season row per player, name-normalized with 3 documented aliases"
+  },
+  "tracking_sources": {
+    "hustle": {
+      "file": "nba_2025_26_hustle.csv",
+      "rows": 581,
+      "unmatched_player": "Darius Brown II",
+      "note": "No NBA hustle row; player has 3 season minutes and is below the modeling threshold."
+    },
+    "passing": {
+      "file": "nba_2025_26_passing.csv",
+      "rows": 582,
+      "unmatched_players": 0
+    },
+    "normalization": "Counting totals are retained and also expressed per 36 minutes. Ratios are recomputed from aggregated numerators and denominators where applicable."
+  }
+}

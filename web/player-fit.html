@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191a">
+  <meta name="description" content="Relative archetype fit percentages for all 389 players in the 2025–26 NBA Archetype Atlas.">
+  <title>Player fit table · The Archetype Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fit.css">
+  <script src="fit-data.js" defer></script>
+  <script src="fit.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Return to Archetype Atlas"><span class="brand-mark" aria-hidden="true"><span></span></span><span>THE<br>ARCHETYPE<br>ATLAS</span></a>
+      <a class="header-link" href="index.html">BACK TO THE ATLAS ↗</a>
+    </header>
+    <main>
+      <section class="fit-section" aria-labelledby="table-title">
+        <div class="section-heading"><div><span class="kicker">THE FULL ROSTER</span><h1 id="table-title">PLAYER FIT.</h1></div></div>
+        <div class="explanation"><strong>What does a percentage mean?</strong> Each number is an inverse-square centroid-distance share within that player's pool. The eligible scores add to about 100%. It measures relative statistical fit, <em>not</em> the probability that a label is correct. High-usage and role-player scores use different models and should not be compared across pools.</div>
+        <div class="controls">
+          <div class="tier-tabs" role="group" aria-label="Player pool">
+            <button type="button" data-tier="role" aria-pressed="true">ROLE PLAYERS <span>324</span></button>
+            <button type="button" data-tier="high" aria-pressed="false">HIGH USAGE <span>65</span></button>
+          </div>
+          <label class="search-label"><span>SEARCH</span><input id="player-search" type="search" placeholder="Player, archetype, or team" autocomplete="off"></label>
+          <label class="filter-label"><span>ARCHETYPE</span><select id="archetype-filter"><option value="">All archetypes</option></select></label>
+          <label class="filter-label"><span>TEAM</span><select id="team-filter"><option value="">All teams</option></select></label>
+          <label class="sort-label"><span>SORT BY</span><select id="player-sort"><option value="player">Player name</option><option value="assigned-desc">Assigned fit: high to low</option><option value="assigned-asc">Assigned fit: low to high</option><option value="gap">Closest call first</option></select></label>
+        </div>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="table-scroll"><table id="fit-table"><thead></thead><tbody></tbody></table></div>
+        <p class="table-note" id="pool-note"></p>
+      </section>
+    </main>
+    <footer><span>THE ARCHETYPE ATLAS <span class="footer-star">✳</span> 2025–26</span><a href="index.html">BACK TO ARCHETYPES ↑</a></footer>
+  </div>
+</body>
+</html>

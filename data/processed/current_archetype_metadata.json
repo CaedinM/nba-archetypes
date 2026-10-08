@@ -1,0 +1,186 @@
+{
+  "source": "data/processed/modeling_players.csv",
+  "method": "Single K-means fit over the complete role-player pool; silhouette selects K among models with no group below 4%",
+  "usage_threshold": 25.0,
+  "role_weights": {
+    "secondary_scoring_volume": 1.1,
+    "shot_profile": 0.9,
+    "rebounding": 0.8,
+    "defensive_activity": 1.4,
+    "catch_and_shoot": 0.85,
+    "secondary_creation": 1.05,
+    "passing_context": 0.7
+  },
+  "high_usage_weights": {
+    "scoring_volume": 1.25,
+    "shot_location": 1.0,
+    "playmaking": 1.3,
+    "passing_context": 0.7,
+    "frontcourt_involvement": 0.9
+  },
+  "high_usage_features": {
+    "scoring_volume": [
+      "fga_per_36",
+      "fta_rate"
+    ],
+    "shot_location": [
+      "three_rate",
+      "rim_rate",
+      "short_mid_rate",
+      "long_mid_rate"
+    ],
+    "playmaking": [
+      "ast_per_36",
+      "ast_to_tov_ratio"
+    ],
+    "passing_context": [
+      "passing_passes_made_per_36",
+      "passing_potential_ast_per_36",
+      "passing_ast_adj_per_36",
+      "passing_ast_pts_created_per_36"
+    ],
+    "frontcourt_involvement": [
+      "oreb_per_36",
+      "dreb_per_36",
+      "blk_per_36"
+    ]
+  },
+  "high_usage_method": "Two K-means clusters over all high-usage players; names follow cluster mean assists per 36",
+  "high_usage_silhouette": 0.21823492567447847,
+  "selection": [
+    {
+      "k": 5,
+      "silhouette": 0.1511262352479309,
+      "smallest_cluster": 48,
+      "smallest_share": 0.14814814814814814
+    },
+    {
+      "k": 6,
+      "silhouette": 0.1507695294997367,
+      "smallest_cluster": 46,
+      "smallest_share": 0.1419753086419753
+    },
+    {
+      "k": 7,
+      "silhouette": 0.14973096193722457,
+      "smallest_cluster": 23,
+      "smallest_share": 0.07098765432098765
+    },
+    {
+      "k": 8,
+      "silhouette": 0.1445417188072124,
+      "smallest_cluster": 22,
+      "smallest_share": 0.06790123456790123
+    },
+    {
+      "k": 9,
+      "silhouette": 0.14788220072618286,
+      "smallest_cluster": 15,
+      "smallest_share": 0.046296296296296294
+    },
+    {
+      "k": 10,
+      "silhouette": 0.14262883192328576,
+      "smallest_cluster": 15,
+      "smallest_share": 0.046296296296296294
+    },
+    {
+      "k": 11,
+      "silhouette": 0.14186315756626303,
+      "smallest_cluster": 14,
+      "smallest_share": 0.043209876543209874
+    },
+    {
+      "k": 12,
+      "silhouette": 0.1325146577894479,
+      "smallest_cluster": 14,
+      "smallest_share": 0.043209876543209874
+    }
+  ],
+  "selected_k": 5,
+  "silhouette": 0.1511262352479309,
+  "bootstrap_stability_ari": 0.7103576224137471,
+  "counts": {
+    "3-and-D Contributors": 63,
+    "Primary Playmakers": 26,
+    "Primary Scorers": 39,
+    "Rim-Runners": 48,
+    "Secondary Facilitators": 60,
+    "Secondary Scorers": 65,
+    "Spot-Up Shooters": 88
+  },
+  "role_labels": {
+    "4": "Rim-Runners",
+    "2": "Secondary Facilitators",
+    "1": "Secondary Scorers",
+    "3": "3-and-D Contributors",
+    "0": "Spot-Up Shooters"
+  },
+  "role_cluster_means": {
+    "3-and-D Contributors": {
+      "three_rate": 0.554,
+      "catch_shoot_fga_share": 0.472,
+      "catch_shoot_fga_per_36": 4.46,
+      "stl_per_36": 1.636,
+      "blk_per_36": 0.634,
+      "dbpm": 1.027,
+      "oreb_per_36": 1.682,
+      "dreb_per_36": 4.444,
+      "ast_per_36": 3.07,
+      "fga_per_36": 9.556,
+      "rim_rate": 0.227
+    },
+    "Rim-Runners": {
+      "three_rate": 0.084,
+      "catch_shoot_fga_share": 0.103,
+      "catch_shoot_fga_per_36": 1.057,
+      "stl_per_36": 1.171,
+      "blk_per_36": 1.702,
+      "dbpm": 0.783,
+      "oreb_per_36": 4.268,
+      "dreb_per_36": 6.851,
+      "ast_per_36": 2.412,
+      "fga_per_36": 9.403,
+      "rim_rate": 0.562
+    },
+    "Secondary Facilitators": {
+      "three_rate": 0.397,
+      "catch_shoot_fga_share": 0.248,
+      "catch_shoot_fga_per_36": 3.216,
+      "stl_per_36": 1.442,
+      "blk_per_36": 0.465,
+      "dbpm": -0.022,
+      "oreb_per_36": 1.212,
+      "dreb_per_36": 4.254,
+      "ast_per_36": 6.486,
+      "fga_per_36": 13.232,
+      "rim_rate": 0.214
+    },
+    "Secondary Scorers": {
+      "three_rate": 0.443,
+      "catch_shoot_fga_share": 0.302,
+      "catch_shoot_fga_per_36": 4.519,
+      "stl_per_36": 1.114,
+      "blk_per_36": 0.616,
+      "dbpm": -0.663,
+      "oreb_per_36": 1.357,
+      "dreb_per_36": 4.728,
+      "ast_per_36": 3.493,
+      "fga_per_36": 14.855,
+      "rim_rate": 0.2
+    },
+    "Spot-Up Shooters": {
+      "three_rate": 0.547,
+      "catch_shoot_fga_share": 0.433,
+      "catch_shoot_fga_per_36": 5.075,
+      "stl_per_36": 1.024,
+      "blk_per_36": 0.585,
+      "dbpm": -0.735,
+      "oreb_per_36": 1.484,
+      "dreb_per_36": 4.003,
+      "ast_per_36": 2.484,
+      "fga_per_36": 11.584,
+      "rim_rate": 0.204
+    }
+  }
+}

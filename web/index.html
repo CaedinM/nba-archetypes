@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191a">
+  <meta name="description" content="An interactive field guide to seven NBA player archetypes from the 2025–26 season, with LEBRON rankings, surprise members, and the biggest outlier in each cluster.">
+  <title>The Archetype Atlas · NBA 2025–26</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Archetype Atlas, back to top">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>THE<br>ARCHETYPE<br>ATLAS</span>
+      </a>
+      <a class="header-link" href="player-fit.html">PLAYER FIT TABLE <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> THE 2025–26 NBA ROLE INDEX <span class="eyebrow-line"></span></div>
+          <h1 id="hero-title">EVERY PLAYER<br>HAS A <em>TYPE.</em></h1>
+          <p>Forget positions. See the game through the roles players actually play.</p>
+          <div class="hero-actions">
+            <a class="hero-cta" href="#archetypes">EXPLORE THE SEVEN <span aria-hidden="true">↗</span></a>
+            <a class="hero-cta hero-cta-secondary" href="player-fit.html">VIEW ALL PLAYERS <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Player portraits of Victor Wembanyama, Shai Gilgeous-Alexander, and Nikola Jokić">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-sun"></div>
+          <span class="hero-big-count" aria-hidden="true">07</span>
+          <div class="hero-person hero-person-left"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png" alt="Shai Gilgeous-Alexander" fetchpriority="high"></div>
+          <div class="hero-person hero-person-right"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png" alt="Nikola Jokić" fetchpriority="high"></div>
+          <div class="hero-person hero-person-center"><img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1641705.png" alt="Victor Wembanyama" fetchpriority="high"></div>
+          <div class="hero-art-label">THE GAME, RECLASSIFIED <span>↗</span></div>
+        </div>
+        <div class="hero-bottom"><span>389 PLAYERS ANALYZED</span><span>07 DISTINCT ARCHETYPES</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </section>
+
+      <section class="archetypes-section" id="archetypes" aria-labelledby="archetypes-title">
+        <div class="section-heading">
+          <div><span class="section-kicker">01 / 02 &nbsp; THE FIELD GUIDE / 2025–26</span><h2 id="archetypes-title">THE SEVEN.</h2></div>
+          <p>Choose a card to meet the archetype.<br>Reveal its impact leaderboard inside.<br><a href="player-fit.html" style="text-decoration:underline;text-underline-offset:4px">Explore every player's fit percentages ↗</a></p>
+        </div>
+        <p class="metric-note"><span>METRIC NOTE</span><strong>LEBRON</strong> is <a href="https://www.bball-index.com/lebron-introduction/">Basketball Index’s</a> estimate of a player’s on-court impact per 100 possessions, combining offense and defense. Zero is average; higher is better.</p>
+        <div class="filter-row" role="group" aria-label="Filter archetypes">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">ALL SEVEN <span>07</span></button>
+          <button class="filter" type="button" data-filter="high" aria-pressed="false">HIGH USAGE <span>02</span></button>
+          <button class="filter" type="button" data-filter="role" aria-pressed="false">ROLE PLAYERS <span>05</span></button>
+        </div>
+        <div class="card-grid" id="card-grid"></div>
+      </section>
+
+      <section class="method-section" id="method" aria-labelledby="method-title">
+        <div class="method-body">
+          <span class="section-kicker">BEHIND THE ATLAS</span>
+          <h2 id="method-title">Methodology</h2>
+          <ol class="method-steps">
+            <li>Collected 2025–26 NBA season data: traditional box-score, passing, and catch-and-shoot stats.</li>
+            <li>Excluded players with fewer than 500 minutes, leaving 389 players.</li>
+            <li>Cleaned and combined player records, then adjusted stats so players with different minutes and shot volumes could be compared.</li>
+            <li>Split players at 25% usage so offensive engines and specialists were clustered separately.</li>
+            <li>Weighted features by how much they matter when describing a player’s role in real-life NBA discourse.</li>
+            <li>For role players, evaluated 5–12 K-means clusters, ruled out groups below 4% of the pool, and chose the eligible result with the best silhouette score.</li>
+            <li>Examined each cluster’s members and shared traits to name its archetype.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="credits-section" id="credits" aria-labelledby="credits-title">
+        <div class="credits-inner">
+          <div class="credits-heading">
+            <span class="section-kicker">This project was created by:</span>
+            <p class="credits-name">Caedin Manners</p>
+            <p class="credits-credential">UC Berkeley CDSS C.O. '25</p>
+          </div>
+          <nav class="credits-links" aria-label="Caedin Manners social profiles">
+            <a class="credits-link" href="https://www.linkedin.com/in/caedin-manners/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="credits-link" href="https://x.com/Caedino30" target="_blank" rel="noopener noreferrer">Twitter / X <span aria-hidden="true">↗</span></a>
+            <a class="credits-link" href="https://github.com/CaedinM" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>THE ARCHETYPE ATLAS <span class="footer-star">✳</span> 2025–26</span><a href="#top">BACK TO TOP ↑</a></footer>
+  </div>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="overlay-backdrop" data-close></div>
+    <section class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" tabindex="-1">
+      <div class="drawer-topbar"><span>THE ARCHETYPE ATLAS / PLAYER TYPES</span><button type="button" class="close-button" id="close-drawer" aria-label="Close archetype">✕</button></div>
+      <div id="drawer-content"></div>
+    </section>
+  </div>
+</body>
+</html>

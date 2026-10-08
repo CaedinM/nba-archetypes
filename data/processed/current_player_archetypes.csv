@@ -1,0 +1,390 @@
+Player,listed_position,tier,usage_pct,cluster,archetype
+Alex Sarr,C,high,25.7,0,Primary Scorers
+Alperen Şengün,C,high,26.6,1,Primary Playmakers
+Anthony Davis,PF,high,27.5,0,Primary Scorers
+Anthony Edwards,SG,high,31.5,0,Primary Scorers
+Austin Reaves,SG,high,26.7,1,Primary Playmakers
+Bam Adebayo,C,high,25.0,0,Primary Scorers
+Bennedict Mathurin,SF,high,25.2,0,Primary Scorers
+Brandon Ingram,SF,high,26.9,0,Primary Scorers
+Brandon Miller,SF,high,28.1,0,Primary Scorers
+Brandon Williams,PG,high,25.1,1,Primary Playmakers
+CJ McCollum,PG,high,25.7,0,Primary Scorers
+Cade Cunningham,PG,high,30.5,1,Primary Playmakers
+Cam Thomas,SG,high,30.3,0,Primary Scorers
+Coby White,SG,high,28.8,0,Primary Scorers
+Cole Anthony,PG,high,25.8,1,Primary Playmakers
+Collin Sexton,SG,high,25.9,0,Primary Scorers
+Cooper Flagg,SF,high,26.9,0,Primary Scorers
+Darius Garland,PG,high,27.4,1,Primary Playmakers
+De'Anthony Melton,PG,high,25.4,0,Primary Scorers
+Deni Avdija,SF,high,29.3,1,Primary Playmakers
+Devin Booker,SG,high,32.2,1,Primary Playmakers
+Dillon Brooks,SF,high,28.6,0,Primary Scorers
+Donovan Mitchell,SG,high,32.2,1,Primary Playmakers
+Franz Wagner,SF,high,27.0,0,Primary Scorers
+Giannis Antetokounmpo,PF,high,37.0,1,Primary Playmakers
+Ja Morant,PG,high,32.5,1,Primary Playmakers
+Jalen Brunson,PG,high,30.4,1,Primary Playmakers
+Jalen Green,SG,high,31.9,0,Primary Scorers
+Jalen Johnson,SF,high,27.0,1,Primary Playmakers
+Jalen Williams,SG,high,26.2,1,Primary Playmakers
+Jamal Murray,PG,high,27.9,1,Primary Playmakers
+James Harden,PG,high,28.6,1,Primary Playmakers
+Jaren Jackson Jr.,C,high,26.2,0,Primary Scorers
+Jaylen Brown,SF,high,36.2,0,Primary Scorers
+Jayson Tatum,PF,high,30.0,1,Primary Playmakers
+Jeremiah Fears,PG,high,25.5,0,Primary Scorers
+Joel Embiid,C,high,33.5,0,Primary Scorers
+Jonas Valančiūnas,C,high,26.1,0,Primary Scorers
+Jordan Poole,PG,high,25.1,0,Primary Scorers
+Julius Randle,PF,high,26.5,0,Primary Scorers
+Karl-Anthony Towns,C,high,25.9,0,Primary Scorers
+Kawhi Leonard,SF,high,33.5,0,Primary Scorers
+Kevin Durant,SF,high,27.1,0,Primary Scorers
+Keyonte George,PG,high,27.9,1,Primary Playmakers
+Kristaps Porziņģis,C,high,27.3,0,Primary Scorers
+LaMelo Ball,PG,high,32.0,1,Primary Playmakers
+Lauri Markkanen,PF,high,28.1,0,Primary Scorers
+LeBron James,SF,high,27.2,1,Primary Playmakers
+Luka Dončić,PG,high,38.1,1,Primary Playmakers
+Michael Porter Jr.,SF,high,30.5,0,Primary Scorers
+Nikola Jokić,C,high,30.4,1,Primary Playmakers
+Norman Powell,SG,high,27.2,0,Primary Scorers
+Paolo Banchero,PF,high,27.6,0,Primary Scorers
+Pascal Siakam,PF,high,30.1,0,Primary Scorers
+RJ Barrett,SF,high,25.8,0,Primary Scorers
+Russell Westbrook,SF,high,25.9,1,Primary Playmakers
+Scoot Henderson,PG,high,25.0,0,Primary Scorers
+Shaedon Sharpe,SG,high,30.5,0,Primary Scorers
+Shai Gilgeous-Alexander,PG,high,33.4,1,Primary Playmakers
+Stephen Curry,PG,high,32.5,0,Primary Scorers
+Trae Young,PG,high,28.1,1,Primary Playmakers
+Tristan Vukcevic,C,high,26.6,0,Primary Scorers
+Tyrese Maxey,PG,high,29.4,1,Primary Playmakers
+Victor Wembanyama,C,high,32.4,0,Primary Scorers
+Zion Williamson,PF,high,25.7,0,Primary Scorers
+A.J. Green,SG,role,14.0,0,Spot-Up Shooters
+AJ Johnson,SG,role,20.6,1,Secondary Scorers
+Aaron Gordon,PF,role,21.9,1,Secondary Scorers
+Aaron Holiday,PG,role,16.6,0,Spot-Up Shooters
+Aaron Nesmith,SF,role,19.8,0,Spot-Up Shooters
+Aaron Wiggins,SG,role,19.9,1,Secondary Scorers
+Ace Bailey,SF,role,21.4,1,Secondary Scorers
+Adem Bona,C,role,11.1,4,Rim-Runners
+Ajay Mitchell,SG,role,21.8,2,Secondary Facilitators
+Al Horford,C,role,16.5,3,3-and-D Contributors
+Alex Caruso,SG,role,15.7,3,3-and-D Contributors
+Amen Thompson,PG,role,20.0,2,Secondary Facilitators
+Amir Coffey,SG,role,11.9,0,Spot-Up Shooters
+Andre Drummond,C,role,14.9,4,Rim-Runners
+Andrew Nembhard,PG,role,23.6,2,Secondary Facilitators
+Andrew Wiggins,SF,role,19.7,1,Secondary Scorers
+Anfernee Simons,SG,role,23.6,1,Secondary Scorers
+Anthony Black,PG,role,22.2,2,Secondary Facilitators
+Anthony Gill,PF,role,11.9,0,Spot-Up Shooters
+Asa Newell,PF,role,17.1,0,Spot-Up Shooters
+Ausar Thompson,SF,role,16.9,4,Rim-Runners
+Ayo Dosunmu,SG,role,20.2,1,Secondary Scorers
+Baylor Scheierman,SG,role,11.9,3,3-and-D Contributors
+Ben Saraf,SG,role,21.0,2,Secondary Facilitators
+Ben Sheppard,SG,role,13.8,0,Spot-Up Shooters
+Bilal Coulibaly,SG,role,19.9,1,Secondary Scorers
+Bobby Portis,PF,role,23.1,1,Secondary Scorers
+Bones Hyland,PG,role,20.6,2,Secondary Facilitators
+Brandin Podziemski,SG,role,20.1,2,Secondary Facilitators
+Brice Sensabaugh,SF,role,24.9,1,Secondary Scorers
+Brook Lopez,C,role,17.2,0,Spot-Up Shooters
+Bruce Brown,SG,role,14.5,3,3-and-D Contributors
+Bryce McGowens,SG,role,14.0,0,Spot-Up Shooters
+Bub Carrington,PG,role,18.0,2,Secondary Facilitators
+Buddy Hield,SG,role,20.3,1,Secondary Scorers
+Caleb Love,SG,role,23.0,1,Secondary Scorers
+Caleb Martin,SF,role,12.5,3,3-and-D Contributors
+Cam Spencer,SG,role,17.2,2,Secondary Facilitators
+Cameron Johnson,SF,role,15.1,0,Spot-Up Shooters
+Caris LeVert,SG,role,18.4,2,Secondary Facilitators
+Carter Bryant,PF,role,16.3,0,Spot-Up Shooters
+Cason Wallace,SG,role,14.5,3,3-and-D Contributors
+Cedric Coward,SG,role,21.5,1,Secondary Scorers
+Chet Holmgren,PF,role,21.9,4,Rim-Runners
+Christian Braun,SG,role,14.8,0,Spot-Up Shooters
+Christian Koloko,C,role,11.3,4,Rim-Runners
+Clint Capela,C,role,13.7,4,Rim-Runners
+Cody Williams,SG,role,16.0,0,Spot-Up Shooters
+Collin Gillespie,PG,role,18.7,2,Secondary Facilitators
+Collin Murray-Boyles,PF,role,15.5,4,Rim-Runners
+Corey Kispert,SF,role,18.6,0,Spot-Up Shooters
+Craig Porter Jr.,PG,role,12.3,3,3-and-D Contributors
+Daeqwon Plowden,SG,role,16.4,0,Spot-Up Shooters
+Dalen Terry,SG,role,14.8,3,3-and-D Contributors
+Dalton Knecht,SF,role,17.7,0,Spot-Up Shooters
+Daniel Gafford,C,role,15.8,4,Rim-Runners
+Daniss Jenkins,PG,role,21.5,2,Secondary Facilitators
+Danny Wolf,PF,role,20.6,1,Secondary Scorers
+Davion Mitchell,PG,role,13.6,2,Secondary Facilitators
+Day'Ron Sharpe,C,role,19.9,4,Rim-Runners
+De'Aaron Fox,PG,role,24.9,2,Secondary Facilitators
+De'Andre Hunter,SF,role,22.9,1,Secondary Scorers
+DeMar DeRozan,PF,role,22.8,1,Secondary Scorers
+Dean Wade,PF,role,9.9,3,3-and-D Contributors
+Deandre Ayton,C,role,16.7,4,Rim-Runners
+Dennis Schröder,PG,role,21.0,2,Secondary Facilitators
+Derik Queen,C,role,21.8,2,Secondary Facilitators
+Derrick Jones Jr.,SF,role,15.1,0,Spot-Up Shooters
+Derrick White,SG,role,22.0,2,Secondary Facilitators
+Desmond Bane,SG,role,23.3,1,Secondary Scorers
+Devin Carter,PG,role,23.5,2,Secondary Facilitators
+Devin Vassell,SG,role,18.0,0,Spot-Up Shooters
+Domantas Sabonis,C,role,23.0,2,Secondary Facilitators
+Dominick Barlow,PF,role,12.8,4,Rim-Runners
+Donovan Clingan,C,role,16.9,4,Rim-Runners
+Donte DiVincenzo,SG,role,16.9,3,3-and-D Contributors
+Dorian Finney-Smith,PF,role,10.7,3,3-and-D Contributors
+Drake Powell,SG,role,14.9,0,Spot-Up Shooters
+Draymond Green,PF,role,16.1,2,Secondary Facilitators
+Drew Eubanks,C,role,16.3,4,Rim-Runners
+Dru Smith,SG,role,15.2,3,3-and-D Contributors
+Duncan Robinson,SG,role,15.8,0,Spot-Up Shooters
+Dwight Powell,C,role,8.9,4,Rim-Runners
+Dylan Cardwell,C,role,11.3,4,Rim-Runners
+Dylan Harper,SG,role,21.8,2,Secondary Facilitators
+Dyson Daniels,SG,role,16.0,2,Secondary Facilitators
+Egor Dëmin,PG,role,18.8,2,Secondary Facilitators
+Elijah Harkless,SG,role,16.2,3,3-and-D Contributors
+Ethan Thompson,SG,role,15.7,0,Spot-Up Shooters
+Evan Mobley,PF,role,22.6,1,Secondary Scorers
+GG Jackson II,PF,role,23.5,1,Secondary Scorers
+Gabe Vincent,PG,role,12.3,0,Spot-Up Shooters
+Gary Harris,SG,role,8.5,3,3-and-D Contributors
+Gary Payton II,SG,role,18.4,3,3-and-D Contributors
+Gary Trent Jr.,SG,role,17.2,0,Spot-Up Shooters
+Goga Bitadze,C,role,13.5,4,Rim-Runners
+Gradey Dick,SG,role,18.7,0,Spot-Up Shooters
+Grant Williams,PF,role,14.1,3,3-and-D Contributors
+Grayson Allen,SG,role,23.8,1,Secondary Scorers
+Guerschon Yabusele,C,role,16.1,0,Spot-Up Shooters
+Gui Santos,PF,role,18.7,2,Secondary Facilitators
+Harrison Barnes,PF,role,14.6,0,Spot-Up Shooters
+Herbert Jones,SF,role,15.2,3,3-and-D Contributors
+Hugo González,SF,role,11.8,3,3-and-D Contributors
+Immanuel Quickley,PG,role,21.1,2,Secondary Facilitators
+Isaac Okoro,SG,role,13.6,0,Spot-Up Shooters
+Isaiah Collier,PG,role,20.4,2,Secondary Facilitators
+Isaiah Hartenstein,C,role,16.1,4,Rim-Runners
+Isaiah Jackson,C,role,16.2,4,Rim-Runners
+Isaiah Joe,SG,role,18.4,0,Spot-Up Shooters
+Isaiah Stewart,C,role,16.6,4,Rim-Runners
+Ivica Zubac,C,role,19.2,4,Rim-Runners
+Ja'Kobe Walter,SG,role,14.0,3,3-and-D Contributors
+Jabari Smith Jr.,PF,role,18.2,0,Spot-Up Shooters
+Jabari Walker,PF,role,15.0,0,Spot-Up Shooters
+Jaden Hardy,SG,role,24.4,1,Secondary Scorers
+Jaden Ivey,SG,role,19.7,1,Secondary Scorers
+Jaden McDaniels,PF,role,18.5,1,Secondary Scorers
+Jahmai Mashack,SG,role,16.0,2,Secondary Facilitators
+Jaime Jaquez Jr.,SF,role,22.3,2,Secondary Facilitators
+Jake LaRavia,PF,role,14.4,3,3-and-D Contributors
+Jakob Poeltl,C,role,15.3,4,Rim-Runners
+Jalen Duren,C,role,23.6,4,Rim-Runners
+Jalen Pickett,SG,role,14.8,0,Spot-Up Shooters
+Jalen Smith,C,role,19.0,0,Spot-Up Shooters
+Jalen Suggs,PG,role,22.9,2,Secondary Facilitators
+Jalen Wilson,PF,role,18.2,0,Spot-Up Shooters
+Jamal Shead,PG,role,15.5,2,Secondary Facilitators
+Jamaree Bouyea,PG,role,18.5,2,Secondary Facilitators
+Jamir Watkins,SG,role,15.1,3,3-and-D Contributors
+Jamison Battle,SF,role,14.1,0,Spot-Up Shooters
+Jarace Walker,PF,role,20.7,1,Secondary Scorers
+Jared McCain,SG,role,20.7,1,Secondary Scorers
+Jarred Vanderbilt,PF,role,12.4,3,3-and-D Contributors
+Jarrett Allen,C,role,19.9,4,Rim-Runners
+Jase Richardson,SG,role,16.8,0,Spot-Up Shooters
+Javon Small,PG,role,19.0,2,Secondary Facilitators
+Javonte Green,SG,role,14.8,3,3-and-D Contributors
+Jaxson Hayes,C,role,13.0,4,Rim-Runners
+Jay Huff,C,role,18.0,0,Spot-Up Shooters
+Jaylen Clark,SG,role,13.3,3,3-and-D Contributors
+Jaylen Wells,SG,role,19.3,0,Spot-Up Shooters
+Jaylin Williams,PF,role,15.6,3,3-and-D Contributors
+Jaylon Tyson,SG,role,19.3,1,Secondary Scorers
+Jerami Grant,PF,role,23.8,1,Secondary Scorers
+Jeremiah Robinson-Earl,PF,role,14.1,0,Spot-Up Shooters
+Jeremy Sochan,PF,role,14.6,3,3-and-D Contributors
+Jericho Sims,C,role,9.8,4,Rim-Runners
+Jett Howard,SF,role,17.2,0,Spot-Up Shooters
+Jevon Carter,PG,role,17.0,0,Spot-Up Shooters
+Jimmy Butler,SF,role,23.3,2,Secondary Facilitators
+Jock Landale,C,role,18.3,0,Spot-Up Shooters
+John Collins,PF,role,19.5,0,Spot-Up Shooters
+John Konchar,SG,role,9.4,3,3-and-D Contributors
+Johnny Furphy,SG,role,12.8,3,3-and-D Contributors
+Jonathan Isaac,PF,role,12.4,4,Rim-Runners
+Jonathan Kuminga,PF,role,23.4,1,Secondary Scorers
+Jordan Clarkson,SG,role,21.1,1,Secondary Scorers
+Jordan Goodwin,PG,role,17.5,3,3-and-D Contributors
+Jordan Hawkins,SG,role,18.2,0,Spot-Up Shooters
+Jordan Miller,SF,role,18.0,0,Spot-Up Shooters
+Jordan Walsh,PF,role,11.7,3,3-and-D Contributors
+Jose Alvarado,PG,role,16.8,2,Secondary Facilitators
+Josh Giddey,PG,role,24.4,2,Secondary Facilitators
+Josh Green,SG,role,10.6,3,3-and-D Contributors
+Josh Hart,SF,role,16.7,2,Secondary Facilitators
+Josh Minott,PF,role,16.8,3,3-and-D Contributors
+Josh Okogie,SG,role,11.3,3,3-and-D Contributors
+Jrue Holiday,PG,role,23.5,2,Secondary Facilitators
+Julian Champagnie,SF,role,15.2,3,3-and-D Contributors
+Julian Phillips,SF,role,13.9,0,Spot-Up Shooters
+Julian Strawther,SG,role,19.4,0,Spot-Up Shooters
+Justin Champagnie,SF,role,16.7,0,Spot-Up Shooters
+Justin Edwards,SF,role,16.1,3,3-and-D Contributors
+Jusuf Nurkić,C,role,19.3,2,Secondary Facilitators
+KJ Simpson,PG,role,21.8,2,Secondary Facilitators
+Kam Jones,SG,role,14.4,2,Secondary Facilitators
+Karlo Matković,PF,role,13.1,4,Rim-Runners
+Kasparas Jakučionis,PG,role,13.7,3,3-and-D Contributors
+Keaton Wallace,PG,role,16.1,2,Secondary Facilitators
+Keegan Murray,PF,role,18.7,0,Spot-Up Shooters
+Kel'el Ware,C,role,18.0,4,Rim-Runners
+Keldon Johnson,SF,role,21.0,1,Secondary Scorers
+Kelly Oubre Jr.,SF,role,18.2,0,Spot-Up Shooters
+Kenrich Williams,PF,role,18.3,3,3-and-D Contributors
+Kentavious Caldwell-Pope,SG,role,17.7,2,Secondary Facilitators
+Keon Ellis,SG,role,13.0,3,3-and-D Contributors
+Kevin Huerter,SF,role,18.8,1,Secondary Scorers
+Kevin Love,PF,role,16.6,0,Spot-Up Shooters
+Kevin Porter Jr.,PG,role,24.3,2,Secondary Facilitators
+Khris Middleton,SF,role,20.6,1,Secondary Scorers
+Klay Thompson,SF,role,22.7,1,Secondary Scorers
+Kobe Brown,PF,role,15.6,0,Spot-Up Shooters
+Kobe Sanders,SG,role,16.3,0,Spot-Up Shooters
+Kon Knueppel,SF,role,22.3,1,Secondary Scorers
+Kris Dunn,PG,role,12.4,3,3-and-D Contributors
+Kris Murray,SF,role,10.6,3,3-and-D Contributors
+Kyle Anderson,SF,role,13.2,4,Rim-Runners
+Kyle Filipowski,C,role,20.0,1,Secondary Scorers
+Kyle Kuzma,PF,role,21.8,1,Secondary Scorers
+Kyshawn George,SF,role,22.8,2,Secondary Facilitators
+Landry Shamet,SG,role,15.7,0,Spot-Up Shooters
+Leonard Miller,SF,role,18.7,1,Secondary Scorers
+Lonzo Ball,PG,role,13.7,3,3-and-D Contributors
+Luguentz Dort,SF,role,14.1,3,3-and-D Contributors
+Luka Garza,C,role,17.7,0,Spot-Up Shooters
+Luke Kennard,SG,role,13.5,0,Spot-Up Shooters
+Luke Kornet,C,role,10.3,4,Rim-Runners
+Malik Monk,SG,role,24.0,1,Secondary Scorers
+Marcus Smart,SG,role,15.4,3,3-and-D Contributors
+Mark Williams,C,role,17.4,4,Rim-Runners
+Marvin Bagley III,PF,role,18.6,4,Rim-Runners
+Matas Buzelis,PF,role,22.8,1,Secondary Scorers
+Max Christie,SG,role,16.5,0,Spot-Up Shooters
+Maxime Raynaud,C,role,18.2,1,Secondary Scorers
+Micah Peavy,SG,role,14.0,0,Spot-Up Shooters
+Micah Potter,C,role,18.0,0,Spot-Up Shooters
+Mikal Bridges,SF,role,17.3,3,3-and-D Contributors
+Mike Conley,PG,role,11.5,3,3-and-D Contributors
+Miles Bridges,PF,role,22.3,1,Secondary Scorers
+Miles McBride,SG,role,18.2,0,Spot-Up Shooters
+Mitchell Robinson,C,role,10.7,4,Rim-Runners
+Mohamed Diawara,SF,role,17.1,0,Spot-Up Shooters
+Moses Moody,SG,role,18.3,0,Spot-Up Shooters
+Mouhamed Gueye,PF,role,12.4,3,3-and-D Contributors
+Moussa Cisse,C,role,14.3,4,Rim-Runners
+Moussa Diabaté,C,role,11.4,4,Rim-Runners
+Myles Turner,C,role,18.6,0,Spot-Up Shooters
+Nae'Qwan Tomlin,PF,role,15.5,0,Spot-Up Shooters
+Naji Marshall,SF,role,20.5,1,Secondary Scorers
+Naz Reid,C,role,22.1,1,Secondary Scorers
+Neemias Queta,C,role,14.7,4,Rim-Runners
+Nic Claxton,C,role,17.7,4,Rim-Runners
+Nick Richards,C,role,18.2,4,Rim-Runners
+Nickeil Alexander-Walker,SG,role,23.9,1,Secondary Scorers
+Nicolas Batum,PF,role,9.6,3,3-and-D Contributors
+Nikola Jović,PF,role,21.4,1,Secondary Scorers
+Nikola Vučević,C,role,21.4,1,Secondary Scorers
+Nique Clifford,SG,role,17.0,0,Spot-Up Shooters
+Noah Clowney,PF,role,20.4,0,Spot-Up Shooters
+Noah Penda,SF,role,14.8,3,3-and-D Contributors
+Nolan Traoré,PG,role,22.8,2,Secondary Facilitators
+OG Anunoby,PF,role,19.7,3,3-and-D Contributors
+Ochai Agbaji,SG,role,14.6,0,Spot-Up Shooters
+Olivier-Maxence Prosper,PF,role,18.9,0,Spot-Up Shooters
+Onyeka Okongwu,C,role,19.5,1,Secondary Scorers
+Oso Ighodaro,PF,role,12.2,4,Rim-Runners
+Ousmane Dieng,C,role,19.7,1,Secondary Scorers
+P.J. Washington,PF,role,20.1,1,Secondary Scorers
+Pat Spencer,PG,role,18.9,2,Secondary Facilitators
+Patrick Williams,PF,role,16.6,0,Spot-Up Shooters
+Paul George,PF,role,23.3,1,Secondary Scorers
+Paul Reed,C,role,20.6,4,Rim-Runners
+Payton Pritchard,PG,role,21.4,1,Secondary Scorers
+Pelle Larsson,SG,role,16.8,0,Spot-Up Shooters
+Pete Nance,PF,role,13.5,0,Spot-Up Shooters
+Peyton Watson,SF,role,20.6,1,Secondary Scorers
+Precious Achiuwa,C,role,17.6,4,Rim-Runners
+Quentin Grimes,SG,role,19.0,1,Secondary Scorers
+Quenton Jackson,PG,role,20.9,2,Secondary Facilitators
+Quinten Post,PF,role,18.8,0,Spot-Up Shooters
+Rasheer Fleming,PF,role,16.3,0,Spot-Up Shooters
+Rayan Rupert,SG,role,15.0,3,3-and-D Contributors
+Reed Sheppard,SG,role,21.7,1,Secondary Scorers
+Rob Dillingham,PG,role,23.1,2,Secondary Facilitators
+Robert Williams,C,role,13.1,4,Rim-Runners
+Ron Holland,SF,role,18.9,3,3-and-D Contributors
+Royce O'Neale,SF,role,14.3,3,3-and-D Contributors
+Rudy Gobert,C,role,12.9,4,Rim-Runners
+Rui Hachimura,PF,role,15.2,0,Spot-Up Shooters
+Ryan Dunn,SF,role,13.7,3,3-and-D Contributors
+Ryan Kalkbrenner,C,role,11.6,4,Rim-Runners
+Ryan Nembhard,PG,role,17.5,2,Secondary Facilitators
+Ryan Rollins,PG,role,24.2,2,Secondary Facilitators
+Saddiq Bey,SF,role,21.6,1,Secondary Scorers
+Sam Hauser,PF,role,14.5,0,Spot-Up Shooters
+Sam Merrill,SG,role,17.0,0,Spot-Up Shooters
+Sandro Mamukelashvili,C,role,18.8,3,3-and-D Contributors
+Santi Aldama,PF,role,20.2,1,Secondary Scorers
+Scottie Barnes,PF,role,23.4,2,Secondary Facilitators
+Sharife Cooper,PG,role,20.0,2,Secondary Facilitators
+Sidy Cissoko,SF,role,12.5,3,3-and-D Contributors
+Simone Fontecchio,SF,role,19.6,0,Spot-Up Shooters
+Sion James,SG,role,11.0,3,3-and-D Contributors
+Spencer Jones,SF,role,9.7,3,3-and-D Contributors
+Stephon Castle,PG,role,24.9,2,Secondary Facilitators
+Steven Adams,C,role,12.1,4,Rim-Runners
+Svi Mykhailiuk,SF,role,14.8,0,Spot-Up Shooters
+T.J. McConnell,PG,role,23.2,2,Secondary Facilitators
+Tari Eason,PF,role,18.7,1,Secondary Scorers
+Taurean Prince,SF,role,16.2,0,Spot-Up Shooters
+Taylor Hendricks,PF,role,16.2,0,Spot-Up Shooters
+Terance Mann,SG,role,13.5,0,Spot-Up Shooters
+Terrence Shannon Jr.,SG,role,17.7,0,Spot-Up Shooters
+Thomas Bryant,C,role,18.6,0,Spot-Up Shooters
+Tidjane Salaün,PF,role,14.9,3,3-and-D Contributors
+Tim Hardaway Jr.,SG,role,18.5,0,Spot-Up Shooters
+Tobias Harris,PF,role,18.8,1,Secondary Scorers
+Tony Bradley,C,role,14.5,4,Rim-Runners
+Toumani Camara,PF,role,16.3,0,Spot-Up Shooters
+Trayce Jackson-Davis,C,role,15.3,4,Rim-Runners
+Tre Johnson,SG,role,22.5,1,Secondary Scorers
+Tre Jones,PG,role,19.2,2,Secondary Facilitators
+Tre Mann,PG,role,23.3,1,Secondary Scorers
+Trendon Watford,PF,role,17.9,2,Secondary Facilitators
+Trey Murphy III,SF,role,22.7,1,Secondary Scorers
+Tristan Da Silva,SF,role,16.2,0,Spot-Up Shooters
+Tyler Herro,SG,role,24.7,1,Secondary Scorers
+Tyler Kolek,PG,role,18.4,2,Secondary Facilitators
+Tyrese Martin,SG,role,18.4,0,Spot-Up Shooters
+Tyrese Proctor,PG,role,22.0,2,Secondary Facilitators
+Tyus Jones,PG,role,10.7,3,3-and-D Contributors
+VJ Edgecombe,SG,role,20.1,1,Secondary Scorers
+Vince Williams Jr.,SG,role,19.5,2,Secondary Facilitators
+Vít Krejčí,PG,role,14.6,0,Spot-Up Shooters
+Walter Clayton,PG,role,18.5,2,Secondary Facilitators
+Wendell Carter Jr.,C,role,15.6,3,3-and-D Contributors
+Will Richard,SG,role,13.0,3,3-and-D Contributors
+Will Riley,SF,role,20.2,1,Secondary Scorers
+Yves Missi,C,role,12.6,4,Rim-Runners
+Zaccharie Risacher,SF,role,17.6,0,Spot-Up Shooters
+Zach LaVine,SG,role,23.7,1,Secondary Scorers
+Zeke Nnaji,PF,role,13.7,3,3-and-D Contributors
+Ziaire Williams,SF,role,18.9,3,3-and-D Contributors
